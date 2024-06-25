@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nik Ariff UI/UX Designer</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+
+
+    <!-- NAVBAR  fixed top is to bring the content top-->
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed-top">
+      <!-- on lg devices the direction will be column -->
+      <div class="container flex-lg-column">
+        <!-- margin bar large device is 4 , mx is for margin left and right-->
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <!-- display large none on large devices -->
+         <span class="h3 fw-bold d-block d-lg-none">Nik Ariff</span>
+         <!-- display none imag on large devices, rounded circle is to make image round -->
+         <img src="./assets/images/nik.jpg"  class="d-none d-lg-block rounded-circle" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+    
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- //NAVBAR -->
+
+    <!-- CONTENT WRAPPER -->
+      <div id="content-wrapper">
+         <!-- HOME -->
+         <!-- px is padding for large device -->
+          <section id="home" class="full-height px-lg-5 ">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                      <!-- data os fade up effect -->
+                          <h1 class="display-4 w-bold" data-aos="fade-up"> I'M AN <span class="text-brand"> ENGINEER</span> FROM SELANGOR</h1>
+                             <!-- margin top 2 rem margin bottom 2 rem  with fade up delay 300-->
+                          <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            I am Nik Ariff, And I Have two years of experience in engineering and currently looking a career in front end,back end,full stack or any related software development role
+                          </p>
+                          <!-- me is margin end  e rem-->
+                              <div data-aos="fade-up" data-aos-delay="600">
+                                <a href="#work" class="btn btn-brand me-3">Explore my work</a>
+                                <a href="https://wa.link/n63xup" class="link-custom">Call: +60122060522</a>
+                              </div>
+                    </div>
+                </div>
+              </div>
+
+              
+
+          </section>
+              
+          <!-- SKILLS -->
+          <!-- px is padding for large device -->
+          <section id="skills" class="full-height px-lg-5">
+            <div class="container">
+              <!-- padding bottom -->
+               <div class="row pb-4" data-aos="fade-up" >
+                   <div class="col-lg-8">
+                    <h6 class="text-brand">SKILLS</h6>
+                    <h1>Skills That I Developed</h1>
+                   </div>
+               </div>
+                 
+               <!-- gutter y is for top and bottom 4 rem-->
+               <div class="row gy-4">
+                <!-- on medium device and above it will cover 4 column space and beelow it will cover 12 space -->
+                       <div class="col-md-4" data-aos="fade-up" >
+                        <!-- add padding 4, rounded is border radius -->
+                        <div class="skill p-4 bg-base rounded-4 shadow-effect">
+                          <div class="iconbox rounded-3">
+                            <!-- i is for icon -->
+                            <i class="las la-desktop"></i>
+                          </div>
+                          <!-- mt is margin top 4 mb is margin bottom 2 -->
+                          <h5 class="mt-4 mb-2">Software Development</h5>
+                          <p>Involved in software development for industrial automation,motion control,machine vision,process control. Including Human Machine Interface for custom solution</p>
+                        </div>
+                       </div>
+
+                       <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <!-- add padding 4, rounded is border radius -->
+                        <div class="skill p-4 bg-base rounded-4 shadow-effect">
+                          <div class="iconbox rounded-3">
+                            <!-- i is for icon -->
+                            <i class="fa-solid fa-microchip"></i>
+                          </div>
+                          <!-- mt is margin top 4 mb is margin bottom 2 -->
+                          <h5 class="mt-4 mb-2">Electronics</h5>
+                          <p>Develop control/data acquisition programs for industrial controller,FPGA,embedded controller & PC-based controller.Troubleshooting and perform maintanence on site when necessary</p>
+                        </div>
+                       </div>
+
+                       <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <!-- add padding 4, rounded is border radius -->
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                          <div class="iconbox rounded-3">
+                            <!-- i is for icon -->
+                            <i class="fa-solid fa-database"></i>
+                          </div>
+                          <!-- mt is margin top 4 mb is margin bottom 2 -->
+                          <h4 class="mt-4 mb-2">Database</h4>
+                          <p>Integration of mysql database with Programmable Logic Control or PC Based Controllers using PHP</p>
+                        </div>
+                       </div>
+
+                       <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <!-- add padding 4, rounded is border radius -->
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                          <div class="iconbox rounded-3">
+                            <!-- i is for icon -->
+                            <i class="fa-solid fa-gears"></i>
+                          </div>
+                          <!-- mt is margin top 4 mb is margin bottom 2 -->
+                          <h4 class="mt-4 mb-2">System Design</h4>
+                          <p>I had experience designing mechanical,electrical,software architecture and integrating them as well</p>
+                        </div>
+                       </div>
+               </div>
+            </div>
+          </section>
+          <!-- //SKILLS-->
+          
+          <!-- WORK -->
+          <!-- px is padding for large device -->
+              <section id="work" class="full height px-lg-5">
+                <div class="container">
+
+                  <div class="row pb-4" data-aos="fade-up" >
+                    <div class="col-lg-8">
+                     <h6 class="text-brand">WORK</h6>
+                     <h1>My Past Projects</h1>
+                    </div>
+                </div>
+
+                <!-- gutter top and bottom -->
+                <div class="row gy-4">
+
+                  <div class="col-md-6" data-aos="fade-up" >
+                    <!-- add padding 4, rounded is class border radius -->
+                    <div class="card-custom rounded-4 bg-base shadow-effect">
+                      <div class="card-custom-image">
+                        <img class="rounded-4" src="./assets/images/Benchtop.PNG" alt="">
+                      </div>
+                      <!-- padding 4 rem -->
+                      <div class="card-custom-content p-4">
+                        <h4>Benchtop White Oil Process plant</h4>
+                        <p>Developed HMI for controlling pump,valves,heater,and displaying measurements from various sensors.I also developed subroutines for
+                           acquiring and controlling various instrument with different brands.
+                        </p>
+                        <a href="#" class="link-custom"></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <!-- add padding 4, rounded is class border radius -->
+                    <div class="card-custom rounded-4 bg-base shadow-effect">
+                      <div class="card-custom-image">
+                        <img class="rounded-4" src="./assets/images/Coreflux_process.PNG" alt="">
+                      </div>
+                      <!-- padding 4 rem -->
+                      <div class="card-custom-content p-4">
+                        <h4>Calcium Carbonate process plant</h4>
+                        <p>Co developed HMI for the process plant,module for data acquisition from various sensor/instruments. Also developed module for interfacing between industrial controller brands for smooth process</p>
+                        <a href="#" class="link-custom"></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6" data-aos="fade-up" >
+                    <!-- add padding 4, rounded is class border radius -->
+                    <div class="card-custom rounded-4 bg-base shadow-effect">
+                      <div class="card-custom-image">
+                        <img class="rounded-4" src="./assets/images/OPGS.PNG" alt="">
+                      </div>
+                      <!-- padding 4 rem -->
+                      <div class="card-custom-content p-4">
+                        <h4>Oil Palm Grading System</h4>
+                        <p>Developed machine vision algorithm for segmenting Oil Palm shapes under different sizes,lighting. Also develop control system module for conveyor speed + pneumatic sorter for different types of Oil Palm</p>
+                        <a href="#" class="link-custom"></a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6" data-aos="fade-up" data-aos-delay="3700">
+                    <!-- add padding 4, rounded is class border radius -->
+                    <div class="card-custom rounded-4 bg-base shadow-effect">
+                      <div class="card-custom-image">
+                        <img class="rounded-4" src="./assets/images/Weighing_System.PNG" alt="">
+                      </div>
+                      <!-- padding 4 rem -->
+                      <div class="card-custom-content p-4">
+                        <h4>Oil Palm Weighing system</h4>
+                        <p>Developed HMI for monitoring of weight of the Palm Oil Fruits from the lorry and the weight of each fruit collected from lorry hydraulic grabber.FPGA controller is used to attain high resolution data for analysis.Custom filter algorithm is developed for post processing of the weighing data</p>
+                        <a href="#" class="link-custom"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                </div>
+              </section>
+          <!-- //WORK -->
+
+         <!-- ABOUT -->
+         <!-- padding on large devices is 5 -->
+         <section id="about" class=" full-height px-lg-5">
+               <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up" >
+                  <div class="col-lg-8">
+                   <h6 class="text-brand">ABOUT</h6>
+                   <h1>My Education & Experience</h1>
+                  </div>
+              </div>
+
+              <div class="row gy-5">
+                <div class="col-lg-6">
+
+                  <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+                  <div class="row gy-4">
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                          <div class="bg-base p-4 rounded-4 shadow-effect">
+                            <h4>Bachelor of Mechatronics Engineering</h4>
+                            <p class="text-brand mb-2">International Islamic University Malaysia (2015-2018)</p>
+                            <p class="mb-0"> Final Year Project: Developed control algorithm for rehabilitation purpose hand gripping machine using model based control with disturbance rejection</p>
+                          </div>
+                        </div>
+
+
+
+
+                  </div>
+
+                </div>
+                 
+                <!-- right column -->
+                <div class="col-lg-6"> 
+                  <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
+                  <div class="row gy-4">
+
+
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                          <div class="bg-base p-4 rounded-4 shadow-effect">
+                            <h4>Internship</h4>
+                            <p class="text-brand mb-2">Petronas Research Sdn Bhd(June 2018 - August 2018)</p>
+                            <p class="mb-0"> Develop high speed test and measurement system using embedded FPGA for mini turbine gas generator</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                          <div class="bg-base p-4 rounded-4 shadow-effect">
+                            <h4>Instrument Engineer </h4>
+                            <p class="text-brand mb-2">Virtual Instrument System Innovation Sdn Bhd(April 2019- July 2020)</p>
+                            <p class="mb-0"> Primary role is to design system for industrial test & measurement systems. Mainly focus on software development using LABview/PLC for motion control,data acquisition,machinevision besides designing electrical and mechanical system as well</p>
+                          </div>
+                        </div>
+
+
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                          <div class="bg-base p-4 rounded-4 shadow-effect">
+                            <h4>Service Engineer</h4>
+                            <p class="text-brand mb-2">M Flotech Controls Sdn Bhd (September 2020 - December 2020)</p>
+                            <p class="mb-0"> Provide Maintanence and techincal support for Instrumentation and controls. Also design SCADA and monitoring systems for Instruments (Solar Panel,RTU,Flow Meter,PT,Level Sensor/Controllers)
+                              Other responsibilites include designing electrical system as well as integrating with Instrument controllers/drivers.
+                            </p>
+                          </div>
+                        </div>
+
+
+                  </div>
+                </div>
+                       
+
+              </div>
+
+               </div>
+         </section>
+         <!-- //ABOUT -->
+
+         
+          <!-- CONTACT-->
+         <!-- padding on large devices is 5 -->
+         <section id="contact" class=" full-height px-lg-5">
+          <div class="container">
+
+           <div class="row justify-content-center text-center "  >
+             <div class="col-lg-8 pb-4" data-aos="fade-up">
+              <h6 class="text-brand">CONTACT</h6>
+              <h1>Interested in working together? Lets talk</h1>
+             </div>
+
+           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+               <div class="social-icon">
+                  <ul>
+                    <li> <a href="https://wa.link/n63xup" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                      <li> <a href="mailto:nikariff95@gmail.com?subject=Software%20Developer%20Role" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                        <li> <a href="https://github.com/nikariff95" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                          <li> <a href="https://www.linkedin.com/in/nik-ariff-5052a1134/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    
+                  </ul>
+               </div>
+
+           </div>
+
+
+
+         </div>
+
+          </div>
+         </section>
+        <!-- //CONTACT -->
+
+
+
+
+
+         <!-- //HOME -->
+      </div>
+    <!-- //CONTENT WRAPPER -->
+    <script src="https://kit.fontawesome.com/e2382597b0.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
